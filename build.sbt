@@ -8,7 +8,7 @@ scalaVersion := "2.9.1"
 
 compileOrder := CompileOrder.JavaThenScala
 
-libraryDependencies += Seq("org.apache.httpcomponents" % "httpclient" % "4.1.2",
+libraryDependencies ++= Seq("org.apache.httpcomponents" % "httpclient" % "4.1.2",
 		           "com.google.guava" % "guava" % "11.0.2",
 		           "org.jsoup" % "jsoup" % "1.6.2",	      
 		           "org.hamcrest" % "hamcrest-core" % "1.3.RC2" % "test->default",
